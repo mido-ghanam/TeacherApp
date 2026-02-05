@@ -1,0 +1,8 @@
+{
+  "name": "Codespace with Postgres",
+  "features": {
+    "ghcr.io/devcontainers/features/postgres:1": {
+      "version": "16"
+    }
+  }
+}

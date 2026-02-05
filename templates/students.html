@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<h3>قائمة الطلاب</h3>
+<table class="table table-striped">
+  <thead><tr><th>الاسم</th><th>الصف</th></tr></thead>
+  <tbody>
+    {% for s in students %}
+    <tr><td><a href="/student/{{ s.id }}/">{{ s.name }}</a></td><td>{{ s.grade }}</td></tr>
+    {% empty %}
+    <tr><td colspan="2">لا يوجد طلاب</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+<a class="btn btn-success" href="/students/add/">إضافة طالب</a>
+{% endblock %}

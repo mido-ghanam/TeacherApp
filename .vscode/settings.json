@@ -1,0 +1,11 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/migrations": true,
+    //"NexorAPIs": true,
+    //"r.txt": true,
+    ".devcontainer": true,
+    //"authentication": true,
+    //"core": true,
+  },
+}
