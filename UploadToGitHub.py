@@ -21,4 +21,4 @@ git branch -M main && \
 git push https://github.com/mido-ghanam/{project}.git {branch} --force
 ''')
 
-#git clone https://github.com/mido-ghanam/TeachersApp.git
+#git clone https://github.com/mido-ghanam/TeacherApp.git
